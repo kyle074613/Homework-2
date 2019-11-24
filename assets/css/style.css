@@ -3,8 +3,42 @@
     margin: 0;
 }
 
+html{
+  height: 100%;
+}
+
 body{
     background-image: url(../images/pipes/pipes.png);
+    height: 100%;
+}
+
+h2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -67px;
+  padding: 0 0 67px;
+}
+
+.navbar
+{
+    background-color: #ffffff!important;
 }
 
 .h1{
@@ -19,15 +53,6 @@ body{
     color: #777777;
 }
 
-h2{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom: 2px solid #cccccc;
-    color: #4aaaa5;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
 .content{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -38,6 +63,21 @@ h2{
     overflow: auto;
 }
 
+.projecttext{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    background-color: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.projecttext a{
+    color: #ffffff;
+}
+
 #submitbutton{
     color: #ffffff;
     background-color: #4aaaa5;
@@ -45,9 +85,16 @@ h2{
     padding: 10px 40px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .h1{
         min-width: 100%;
         text-align: center;
     }
 }
+
+
+
+
+
+
+
